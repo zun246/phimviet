@@ -1,5 +1,5 @@
 body {
-	border-top: #f90 3px solid;
+	border-top: #f90 5px solid;
 }
 
 #container{
@@ -22,3 +22,13 @@ body {
 
 }
 
+.breadcrumb > li >a{
+	color:#f98408;
+	font-weight: bold;
+	font-size: 17px;
+}
+.breadcrumb > strong{
+	color:#f98408;
+	font-weight: bold;
+	font-size: 17px;
+}

@@ -4,9 +4,10 @@ App::uses('AppModel','Model');
 class Theloai extends AppModel
 {
 	public $name='Theloai';
-	public $hasAndBelongsToMany=array(
+	public $useTable='theloai';
+	/*public $hasAndBelongsToMany=array(
 		'TheloaiPhim'=> array(
-			'className'=> 'Phim';
+			'className'=> 'Phim'
 		)
-	);
+	);*/
 }

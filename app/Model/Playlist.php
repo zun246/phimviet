@@ -7,7 +7,7 @@ class Playlist extends AppModel
 	public $belongsTo='Thanhvien';
 	public $hasAndBelongsToMany = array(
 		'PlaylistPhim'=>array(
-			'className'=>'Phim';
+			'className'=>'Phim'
 		)
 	);
 }
